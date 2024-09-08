@@ -13,11 +13,11 @@ ol {
   aspect-ratio: 1 / 1;
   container-type: inline-size;
   display: grid;
-  width: 75%; /* Set the width to 75% */
+  width: 50%; /* Set the width to 50% */
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%) scale(0.75); /* Center and scale to 75% */
+  transform: translate(-50%, -50%) scale(0.5); /* Center and scale down */
 }
 
 li {
@@ -151,3 +151,4 @@ li::after {
   animation-duration: 2s;
   opacity: 0.5;
 }
+
